@@ -1,0 +1,38 @@
+:root {
+  --mbgc: black;
+  --white: #e9edc9;
+  --lightwhite: white;
+  --solid: #b6ad90;
+}
+body {
+  position: relative;
+  background-color: var(--lightwhite);
+}
+main {
+  background-color: silver;
+  height: 90vh;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightwhite);
+}
+#mainForm {
+  display: flex;
+  justify-content: space-around;
+  border: snow;
+  background-color: slategray;
+  padding: 5%;
+}
+#byNameContainer {
+  padding: 5%;
+  background-color: darkorange;
+}
+table {
+  display: flex;
+  border: springgreen, 2px solid;
+  background-color: var(--solid);
+  width: 70%;
+  margin-left: 20%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Corona Test Management System</h1>
+        <form id="mainForm">
+            <input type="text" id="firstName" placeholder="enter first name"><br><br>
+            <input type="text" id="lastName" placeholder="enter last name"><br><br>
+            <input type="text" id="birthYear" placeholder="enter year of birth"><br><br>
+            <input type="number" id="idNumber" placeholder="enter your ID number"><br><br>
+            <input type="text" id="city" placeholder="enter your city"><br>
+            <button type="button" id="addPatientBtn">send</button><br><br>  
+        </form>
+
+        <div id="byNameContainer"></div>
+        <input type="text" id="searchByName" placeholder="search by name">
+        <button id="searchBtn"type="button">search</button>
+    
+        <div id="byIdContainer"></div>
+        <input type="number" id="searchById" placeholder="search by ID">
+        <button id="searchByIdBtn" type="button">search</button>
+    
+    <table>
+        <tbody id="patientsTable"></tbody>
+    </table>
+
+    </main>
+    <footer></footer>
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
